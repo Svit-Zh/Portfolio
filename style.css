@@ -93,3 +93,20 @@ h3 {
   padding: 20px 15px;
   text-decoration: none;
 }
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+  .text-center {
+    text-size: 10px;
+  }
+  img {
+    display: none;
+  }
+  .launch-link {
+    padding: 10px 5px;
+  }
+  p {
+    text-align: center;
+  }
+}
