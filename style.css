@@ -6,7 +6,7 @@
 
 body {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 100px 0;
 }
 
 h1,
@@ -94,19 +94,23 @@ h3 {
   text-decoration: none;
 }
 @media (max-width: 576px) {
-  body {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
     text-align: center;
   }
-  .text-center {
-    text-size: 10px;
-  }
-  img {
-    display: none;
-  }
-  .launch-link {
-    padding: 10px 5px;
+  h3 {
+    font-size: 23px;
   }
   p {
     text-align: center;
+  }
+  .mobile-project {
+    text-align: center;
+    display: block;
+    margin: 0 20px;
   }
 }
